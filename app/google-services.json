@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "674304373294",
+    "project_id": "final-viva-app",
+    "storage_bucket": "final-viva-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674304373294:android:15528aac69483f3f90a5bf",
+        "android_client_info": {
+          "package_name": "com.deltacodex.EventPulse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHOjNt7EPSFWTvGxLGTTlfBCaKJHCo920"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674304373294:android:a4c8e62f1bbd8d7790a5bf",
+        "android_client_info": {
+          "package_name": "com.deltacodex.epadmins"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHOjNt7EPSFWTvGxLGTTlfBCaKJHCo920"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
