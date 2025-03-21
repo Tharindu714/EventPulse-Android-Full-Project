@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="oval">
+            <corners android:radius="12dp" />
+            <solid android:color="#80000000" />
+        </shape>
+    </item>
+
+    <!-- Main Image Background -->
+    <item
+        android:bottom="2dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:top="2dp">
+        <shape android:shape="oval">
+            <corners android:radius="20dp" />
+            <solid android:color="#00000000" />
+        </shape>
+    </item>
+
+</layer-list>
