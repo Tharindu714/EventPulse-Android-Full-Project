@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_Tv_shows">
+
+    <fragment
+        android:id="@+id/nav_Tv_shows"
+        android:name="com.deltacodex.EventPulse.ui.tvshows.TvshowsFragment"
+        android:label="@string/menu_Tv_shows"
+        tools:layout="@layout/fragment_tvshows" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.deltacodex.EventPulse.ui.Gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_news_update"
+        android:name="com.deltacodex.EventPulse.ui.NewsUpdates.NewsUpdateFragment"
+        android:label="@string/menu_news"
+        tools:layout="@layout/fragment_news_update" />
+
+    <fragment
+        android:id="@+id/nav_news_feed"
+        android:name="com.deltacodex.EventPulse.ui.newsFeed.NewsFragment"
+        android:label="@string/menu_newsFeed"
+        tools:layout="@layout/fragment_news" />
+
+    <fragment
+        android:id="@+id/nav_community"
+        android:name="com.deltacodex.EventPulse.ui.Community.ForumFragment"
+        android:label="@string/menu_community"
+        tools:layout="@layout/fragment_forum" />
+
+    <fragment
+        android:id="@+id/nav_trailer"
+        android:name="com.deltacodex.EventPulse.ui.Trailer.TrailerFragment"
+        android:label="@string/menu_trailers"
+        tools:layout="@layout/fragment_trailer" />
+
+    <fragment
+        android:id="@+id/nav_bloopers"
+        android:name="com.deltacodex.EventPulse.ui.Blooper.BlooperFragment"
+        android:label="@string/menu_bloopers"
+        tools:layout="@layout/fragment_blooper" />
+
+    <fragment
+        android:id="@+id/nav_teasers"
+        android:name="com.deltacodex.EventPulse.ui.Teaser.TeaserFragment"
+        android:label="@string/menu_Teasers"
+        tools:layout="@layout/fragment_teaser" />
+
+    <fragment
+        android:id="@+id/nav_Profile"
+        android:name="com.deltacodex.EventPulse.ui.profile.ProfileFragment"
+        android:label="@string/menu_Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_About"
+        android:name="com.deltacodex.EventPulse.ui.About.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_bug_report"
+        android:name="com.deltacodex.EventPulse.ui.Crashlythics.Bug_report_Fragment"
+        android:label="@string/menu_bugReport"
+        tools:layout="@layout/fragment_bug_report" />
+
+    <fragment
+        android:id="@+id/nav_admin"
+        android:name="com.deltacodex.EventPulse.ui.admin.AdminFragment"
+        android:label="@string/menu_admin"
+        tools:layout="@layout/fragment_admin" />
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.deltacodex.EventPulse.ui.Maps.MapsFragment"
+        android:label="@string/menu_cinema"
+        tools:layout="@layout/fragment_maps" />
+</navigation>

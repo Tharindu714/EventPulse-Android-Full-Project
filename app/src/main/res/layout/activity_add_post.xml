@@ -1,0 +1,85 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#121212"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Post Title -->
+        <EditText
+            android:id="@+id/postTitleInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/side_nav_bar"
+            android:hint="Put your Message Title Here"
+            android:padding="12dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Post Content -->
+        <EditText
+            android:id="@+id/postContentInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_dark"
+            android:gravity="top"
+            android:hint="What's on your mind?"
+            android:minHeight="150dp"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="16sp" />
+
+        <!-- Category Spinner -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/postCategorySpinner"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/card_gradient_background"
+                android:entries="@array/category_array"
+                android:padding="10dp" />
+
+            <!-- Image Button at the bottom with rounded corners -->
+            <ImageButton
+                android:id="@+id/submitPostBtn"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/rounded_button_background"
+                android:contentDescription="Submit Post"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_send"
+                app:tint="@android:color/white" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/communityGuidelinesText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Community_guidelines"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:paddingTop="12dp"
+            android:layout_marginTop="16dp"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+</ScrollView>
+

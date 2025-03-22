@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@android:color/background_dark"
+    android:elevation="4dp"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <!-- Username -->
+    <TextView
+        android:id="@+id/commentUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Comment Text -->
+    <TextView
+        android:id="@+id/commentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:text="This is a sample comment..."
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <!-- Timestamp -->
+    <TextView
+        android:id="@+id/commentTimestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:text="Feb 10, 2025 - 14:30"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp"
+        android:textStyle="italic" />
+</LinearLayout>

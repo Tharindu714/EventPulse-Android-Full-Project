@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Tv_shows"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_Tv_shows" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="@string/menu_gallery"
+            android:icon="@drawable/galley_24" />
+
+        <item
+            android:id="@+id/nav_news_update"
+            android:icon="@drawable/globe_news"
+            android:title="@string/menu_news" />
+
+        <item
+            android:id="@+id/nav_news_feed"
+            android:icon="@drawable/news_feed"
+            android:title="@string/menu_newsFeed" />
+
+        <item
+            android:id="@+id/nav_community"
+            android:icon="@drawable/ic_community"
+            android:title="@string/menu_community" />
+
+        <item
+            android:id="@+id/nav_trailer"
+            android:icon="@drawable/movies_24"
+            android:title="@string/menu_trailers" />
+
+        <item
+            android:id="@+id/nav_bloopers"
+            android:icon="@drawable/bloopers_24"
+            android:title="@string/menu_bloopers" />
+
+        <item
+            android:id="@+id/nav_teasers"
+            android:icon="@drawable/teasers_24"
+            android:title="@string/menu_Teasers" />
+
+        <item
+            android:id="@+id/nav_Profile"
+            android:icon="@drawable/icon_user"
+            android:title="@string/menu_Profile" />
+
+        <item
+            android:id="@+id/nav_About"
+            android:icon="@drawable/ic_about"
+            android:title="@string/menu_about" />
+
+        <item
+            android:id="@+id/nav_bug_report"
+            android:icon="@drawable/bug_report"
+            android:title="@string/menu_bugReport" />
+
+        <item
+            android:id="@+id/nav_SignUp"
+            android:icon="@drawable/signin_24"
+            android:title="@string/menu_SignUp" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout_24"
+            android:title="@string/menu_Logout" />
+
+        <item
+            android:id="@+id/nav_admin"
+            android:icon="@drawable/admin"
+            android:title="@string/menu_admin" />
+    </group>
+</menu>

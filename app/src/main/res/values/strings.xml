@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Event Pulse</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Event Pulse</string>
+    <string name="nav_header_subtitle">Never Miss a Premiere</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_Tv_shows">Collection</string>
+    <string name="menu_Movies">Movies</string>
+    <string name="menu_Games">Games &amp; Consoles</string>
+    <string name="menu_Profile">Profile Page</string>
+    <string name="menu_SignUp">Register/Sign In</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="profile_page">Profile Page</string>
+    <string name="tv_shows">Tv Shows</string>
+    <string name="movies">Movies</string>
+    <string name="games">Games</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="FI_page_btn1">Visit Home</string>
+    <string name="FI_page_btn2">Register Now</string>
+    <string name="slogan">Never Miss a Premiere</string>
+    <string name="SignupText1">Register Now</string>
+    <string name="SignupbtnText1">Register</string>
+    <string name="SignupbtnText2">Sign In</string>
+    <string name="hint1_signup">Please Enter Your Full Name</string>
+    <string name="hint2_signup">Please Enter Mobile Number Here</string>
+    <string name="hint3_signup">Please Enter Your Password Here</string>
+    <string name="hint4_signup">Please Enter Email Here</string>
+    <string name="Sign_inText">Sign In Here</string>
+    <string name="hint1_signin">Please Enter Your User Name</string>
+    <string name="hint2_signin">Please Enter Your Password</string>
+    <string name="signin_btn">Sign In</string>
+    <string name="signinbtn2">Create New</string>
+    <string name="frag_tvshows">This Page is Under maintenance</string>
+    <string name="menu_Logout">Logout</string>
+    <string name="menu_admin">Join with Us</string>
+    <string name="epadmin_download">Download EPAdmins to Join with Us</string>
+    <string name="menu_news">News Updates</string>
+    <string name="menu_newsFeed">Fan News Feed</string>
+    <string name="menu_trailers">Watch Trailer</string>
+    <string name="menu_bloopers">Watch Bloopers</string>
+    <string name="menu_Teasers">Watch Teasers</string>
+    <string name="menu_gallery">Poster Gallery</string>
+    <string name="menu_community">EPCommunity</string>
+    <string name="Community_guidelines">
+        1. Respectful Communication\n
+        We encourage a respectful and positive environment where everyone feels welcome.
+        Please engage in conversations with kindness and respect for others’ opinions.\n\n
+
+        2. Age-Appropriate Content\n
+        EventPulse offers a wide range of content, but certain materials such as 18+ content
+        and crime movies are locked for the safety of children...\n\n
+
+        3. No Illegal Content\n
+        Posting or sharing illegal content, including pirated movies,
+        games, or any form of unauthorized distribution, is strictly prohibited.\n\n
+
+        4. Protecting Personal Information\n
+        Protect your personal privacy and respect others’ privacy...\n\n
+
+        5. Reporting Harmful Behavior\n
+        If you encounter any inappropriate behavior or content, please report it immediately...\n\n
+
+        6. Content Quality\n
+        Ensure content shared adds value to the community\n\n
+
+        7. No Explicit or Harmful Content\n
+        Content that is sexually explicit, harmful, or violent is prohibited...\n\n
+
+        8. Moderation and Enforcement\n
+        EventPulse employs 24/7 moderation...\n\n
+
+        9. Encouraging Positive Interactions\n
+        Please be constructive in your discussions and share your opinions...</string>
+    <string name="menu_about">About Developer</string>
+    <string name="About_page">EventPulse is a comprehensive entertainment hub that allows users to explore the latest movies, TV series, and games all in one place.\n\nWhether you\'re looking to watch the hottest new releases or dive into the world of gaming, EventPulse has something for everyone. The app includes rich media content such as trailers, reviews, and ratings, so you can make informed decisions on what to watch or play next.</string>
+    <string name="menu_cinema">Cinema Near by Me</string>
+    <string name="menu_bugReport">Crashlytics</string>
+    <string-array name="category_array">
+        <item>About Apps</item>
+        <item>Tv Shows</item>
+        <item>Movies</item>
+        <item>Games</item>
+        <item>Promotions</item>
+    </string-array>
+</resources>

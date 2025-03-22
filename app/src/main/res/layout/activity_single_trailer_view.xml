@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:padding="16dp"
+    tools:context=".SingleTrailerViewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- WebView for Trailer -->
+        <WebView
+            android:id="@+id/webViewTrailer"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@android:color/black"/>
+
+        <!-- Trailer Headline -->
+        <TextView
+            android:id="@+id/trailerHeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Trailer Headline"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
+
+        <!-- Release Date -->
+        <TextView
+            android:id="@+id/trailerReleaseDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Release Date"
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_orange_light"/>
+
+        <!-- Trailer Description -->
+        <TextView
+            android:id="@+id/trailerDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Trailer Description"
+            android:textSize="16sp"
+            android:textColor="@android:color/darker_gray"/>
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#121212"
+            android:text="Let's watch More Trailers 🚀🎥"
+            android:textColor="#FF4081"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
+

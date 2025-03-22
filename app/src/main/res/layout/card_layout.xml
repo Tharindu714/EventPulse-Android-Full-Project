@@ -1,0 +1,112 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    card_view:cardCornerRadius="20dp"
+    card_view:cardElevation="8dp"
+    android:background="@drawable/card_gradient_background">
+
+    <RelativeLayout
+        android:layout_width="403dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_gradient_background"
+        android:padding="16dp">
+
+        <!-- Large image behind -->
+        <ImageView
+            android:id="@+id/background_image"
+            android:layout_width="377dp"
+            android:layout_height="147dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/premiere_wave_studio_inc" />
+
+        <!-- EventPulse Logo -->
+
+        <!-- Movie Title and Ratings -->
+
+        <ImageView
+            android:id="@+id/event_logo"
+            android:layout_width="125dp"
+            android:layout_height="129dp"
+            android:layout_above="@+id/movie_description"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="91dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="14dp"
+            android:layout_toStartOf="@+id/text_section"
+            android:scaleType="centerCrop"
+            android:src="@drawable/event_pulse" />
+
+        <LinearLayout
+            android:id="@+id/text_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/background_image"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:orientation="vertical"
+            android:paddingTop="8dp">
+
+            <TextView
+                android:id="@+id/movie_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="Movie Name"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/movie_ratings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="4dp"
+                android:text="IMDB 8.5   Rotten Tomatoes 90%"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/google_ratings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="4dp"
+                android:text="90% Google Users Love this Series"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <!-- Movie Description -->
+        <TextView
+            android:id="@+id/movie_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_section"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:paddingTop="8dp"
+            android:text="In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits. As they search for answers, the children unravel a series of extraordinary mysteries..."
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/see_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/movie_description"
+            android:layout_alignStart="@+id/movie_description"
+            android:layout_marginStart="0dp"
+            android:paddingTop="4dp"
+            android:text="See more"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+

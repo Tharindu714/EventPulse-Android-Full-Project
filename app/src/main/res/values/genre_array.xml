@@ -1,0 +1,14 @@
+<resources>
+    <string-array name="genre_array">
+        <item>All</item>
+        <item>Drama</item>
+        <item>Comedy</item>
+        <item>Action</item>
+        <item>Thriller</item>
+        <item>Sci-Fi</item>
+        <item>Horror</item>
+        <item>Mystery</item>
+        <item>Fantasy</item>
+        <item>Sport</item>
+    </string-array>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    tools:context=".ui.Community.ForumFragment">
+
+    <!-- Semi-transparent overlay to focus on Add Post button -->
+    <View
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:alpha="0.7"
+        android:visibility="gone"/>
+
+    <!-- Add Post Instruction -->
+    <TextView
+        android:id="@+id/addPostInstruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap the button below to add a new post!"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:visibility="gone" />
+
+    <!-- Progress Bar (Hidden initially) -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <!-- Shake to Refresh Indicator -->
+    <TextView
+        android:id="@+id/shakeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/shakeIcon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/shake"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+    <!-- Empty View (Shown when no posts are available) -->
+    <TextView
+        android:id="@+id/emptyView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="No posts available. Be the first to share something!"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:visibility="gone"/>
+
+    <!-- RecyclerView for Listing Posts -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPosts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:scrollbars="vertical" />
+
+    <!-- Floating Action Button for Adding a New Post -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addPostButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#E50914"
+        android:contentDescription="Add New Post"
+        android:src="@drawable/ic_add"
+        app:maxImageSize="35dp" />
+
+</RelativeLayout>

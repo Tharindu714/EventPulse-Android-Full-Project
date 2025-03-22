@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/trailerCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latest Trailers"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"/>
+
+    <!-- Child RecyclerView (Horizontal Scroll) -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal"
+        android:orientation="horizontal"/>
+
+</LinearLayout>
